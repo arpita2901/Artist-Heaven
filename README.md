@@ -82,15 +82,15 @@ git init
 git add .
 git commit -m "Initial Art Heaven app"
 git branch -M main
-git remote add origin https://github.com/arpita2901/art-heaven.git
+git remote add origin https://github.com/arpita2901/Artist-Heaven.git
 git push -u origin main
 ```
 
-> Create the `art-heaven` repository on GitHub first (under `arpita2901`) if it doesn’t exist, then run the push command.
+> Create the `Artist-Heaven` repository on GitHub first (under `arpita2901`) if it doesn’t exist, then run the push command.
 
 ### Deploy on Vercel
 
-1. Import the GitHub repository in [Vercel](https://vercel.com/new).
+1. Import the GitHub repository (`arpita2901/Artist-Heaven`) in [Vercel](https://vercel.com/new).
 2. Set environment variables (if using Supabase):
    - `NEXT_PUBLIC_SUPABASE_URL`
    - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
